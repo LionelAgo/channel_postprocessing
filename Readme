@@ -1,0 +1,41 @@
+Routine in Python for Postprocessing channel flow data 
+
+=================================================================================
+TYPE OF FLOW & CASE: Turbulent Channel Flow, Re_tau=180 (8x4)Pi
+=================================================================================
+Authors:            Lionel Agostini and Peter Vincent (l.agostini@imperial.ac.uk)
+
+Solver:             DNS were undertaken using PyFR (http://www.pyfr.org/)
+	            - based on the high-order flux reconstruction method
+                    of Huynh
+                    - compressible solver
+                    - a Rusanov Riemann solver was employed to calculate the
+                    inter-element fluxes
+                    - an explicit RK45[2R+] scheme was used to advance the
+                    solution in time
+
+Starting file:      Channel-02050.0000.pyfrs
+
+Mesh file           Channel-180.pyfrm
+
+Reynolds number:    Re_tau=180
+
+Domain size:        (Lx,Ly,Lz)/h=(8Pi,2,4Pi)
+
+Domain mesh:        62 x 19 x 60 hexahedral elements
+
+Resolution:         Fifth-order polynomial
+
+Number of snapshots: 87 {\rho,u,v,w} (611 MB each)
+
+Total size:         53.2 GB.
+
+Name:               Channel-xxxx
+
+Number of statistics files: 197 (122 MB each)
+
+Total Size:         24 GB.
+
+Name:               avg-xxxx
+
+Stats avering window:  from 2000 to 6300
