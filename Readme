@@ -1,4 +1,8 @@
 Routine in Python for Postprocessing channel flow data
+
+Main functions :
+   - channel_PP   (postprocessing from data volumes)
+   - MultiD_Jpdfs (postprocessing from (rho,u,v,w)-Pdfs
 data available : https://www.dropbox.com/sh/ak1mxjh6aq8isr0/AADO3F8B-0KXW1aep8hAFMzEa?dl=0
 
 
